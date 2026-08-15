@@ -1,0 +1,26 @@
+[
+    {
+        "id": "M-AM-01",
+        "tipo": "ambiental",
+        "coords": [10, 20],
+        "tempo": 30,
+        "update_interval": 5,
+        "parametro": null
+    },
+    {
+        "id": "M-FT-02",
+        "tipo": "fotos",
+        "coords": [5, 5],
+        "tempo": 40,
+        "update_interval": 10,
+        "parametro": 3
+    },
+    {
+        "id": "M-CL-03",
+        "tipo": "coleta",
+        "coords": [15, 15],
+        "tempo": 25,
+        "update_interval": 5,
+        "parametro": "Rochas Basalticas"
+    }
+]
