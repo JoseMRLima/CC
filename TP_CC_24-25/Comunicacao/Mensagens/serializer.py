@@ -1,11 +1,11 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
-from TP2.Comunicacao.Mensagens.mensagem import Mensagem
-from TP2.Comunicacao.Telemetria.telemetria import Telemetria
-from TP2.Comunicacao.Mensagens.missons import Missao, ColetaAmostras, CapturaImagens, AnaliseAmbiental
-from TP2.Comunicacao.Mensagens.update import UpdateAmostras, UpdateImagens, UpdateAmbiental
-from TP2.Comunicacao.Mensagens.final import FinalAmostras, FinalImagens, FinalAmbiental
+from este.Comunicacao.Mensagens.mensagem import Mensagem
+from este.Comunicacao.Telemetria.telemetria import Telemetria
+from este.Comunicacao.Mensagens.missons import Missao, ColetaAmostras, CapturaImagens, AnaliseAmbiental
+from este.Comunicacao.Mensagens.update import UpdateAmostras, UpdateImagens, UpdateAmbiental
+from este.Comunicacao.Mensagens.final import FinalAmostras, FinalImagens, FinalAmbiental
 
 
 

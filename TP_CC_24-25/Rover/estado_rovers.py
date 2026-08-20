@@ -1,7 +1,8 @@
 import threading
 import math
 import time
-from TP2.Comunicacao.Telemetria.telemetria import Telemetria
+# Ajusta o import conforme a tua estrutura de pastas, mantive o original
+from este.Comunicacao.Telemetria.telemetria import Telemetria
 
 class EstadoRover:
     def __init__(self, id, x, y):

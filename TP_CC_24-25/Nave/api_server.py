@@ -11,15 +11,19 @@ shared_missions = {}
 class RequestHandler(BaseHTTPRequestHandler):
 
     def log_message(self, format, *args):
+        # Desativar logs de acesso para não poluir o terminal da Nave
         return
 
     def do_GET(self):
+        # Verificar a rota (endpoint)
         if self.path == '/api/status':
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
             self.end_headers()
 
+            # 1. Preparar os dados (igual à versão anterior)
             telemetry_dict = {}
+            # Copiar para evitar erros de concorrência
             telemetry_snapshot = shared_telemetry.copy()
 
             for rover_id, tel_obj in telemetry_snapshot.items():

@@ -1,64 +1,122 @@
 {
     "M-AM-01": {
         "mission_id": "M-AM-01",
-        "rover_id": "R-11",
+        "rover_id": "R-12",
         "type": "AnaliseAmbiental",
-        "status": "Active",
-        "start_time": "16/01/2026-11:01:53",
+        "status": "Completed",
+        "start_time": "13/12/2025-17:47:50",
         "target_coords": [
             10,
             20
         ],
         "updates": [
             {
-                "timestamp": "16/01/2026 11:01:58",
-                "kind": "UpdateAmbiental",
-                "temperatura": 24,
-                "pressao": 1015,
-                "umidade": 46,
-                "pos": [
-                    10,
-                    20
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:02:03",
-                "kind": "UpdateAmbiental",
-                "temperatura": 24,
-                "pressao": 1015,
-                "umidade": 46,
-                "pos": [
-                    10,
-                    20
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:02:08",
+                "timestamp": "13/12/2025 17:47:55",
                 "kind": "UpdateAmbiental",
                 "temperatura": 23,
-                "pressao": 1015,
-                "umidade": 46,
+                "pressao": 1012,
+                "umidade": 49,
+                "pos": [
+                    10,
+                    20
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:00",
+                "kind": "UpdateAmbiental",
+                "temperatura": 23,
+                "pressao": 1012,
+                "umidade": 49,
+                "pos": [
+                    10,
+                    20
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:05",
+                "kind": "UpdateAmbiental",
+                "temperatura": 23,
+                "pressao": 1012,
+                "umidade": 49,
+                "pos": [
+                    10,
+                    20
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:10",
+                "kind": "UpdateAmbiental",
+                "temperatura": 23,
+                "pressao": 1012,
+                "umidade": 49,
+                "pos": [
+                    10,
+                    20
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:10",
+                "kind": "UpdateAmbiental",
+                "temperatura": 23,
+                "pressao": 1012,
+                "umidade": 49,
+                "pos": [
+                    10,
+                    20
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:20",
+                "kind": "UpdateAmbiental",
+                "temperatura": 23,
+                "pressao": 1012,
+                "umidade": 49,
                 "pos": [
                     10,
                     20
                 ]
             }
         ],
-        "final_result": null
+        "final_result": {
+            "timestamp": "13/12/2025 17:48:20",
+            "kind": "FinalAmbiental",
+            "log_temperatura": [
+                23,
+                23,
+                23,
+                23,
+                23
+            ],
+            "log_pressao": [
+                1012,
+                1012,
+                1012,
+                1012,
+                1012
+            ],
+            "log_umidade": [
+                49,
+                49,
+                49,
+                49,
+                49
+            ]
+        },
+        "end_time": "13/12/2025 17:48:20"
     },
     "M-FT-02": {
         "mission_id": "M-FT-02",
         "rover_id": "R-11",
         "type": "CapturaImagens",
         "status": "Completed",
-        "start_time": "16/01/2026-11:02:11",
+        "start_time": "13/12/2025-17:47:59",
         "target_coords": [
             5,
             5
         ],
         "updates": [
             {
-                "timestamp": "16/01/2026 11:02:23",
+                "timestamp": "13/12/2025 17:48:14",
                 "kind": "UpdateImagens",
                 "nr_imagens": 2,
                 "pos": [
@@ -67,7 +125,16 @@
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:02:33",
+                "timestamp": "13/12/2025 17:48:14",
+                "kind": "UpdateImagens",
+                "nr_imagens": 2,
+                "pos": [
+                    5,
+                    5
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:29",
                 "kind": "UpdateImagens",
                 "nr_imagens": 3,
                 "pos": [
@@ -76,7 +143,7 @@
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:02:43",
+                "timestamp": "13/12/2025 17:48:39",
                 "kind": "UpdateImagens",
                 "nr_imagens": 3,
                 "pos": [
@@ -86,7 +153,7 @@
             }
         ],
         "final_result": {
-            "timestamp": "16/01/2026 11:02:51",
+            "timestamp": "13/12/2025 17:48:39",
             "kind": "FinalImagens",
             "total_fotos": 3,
             "ficheiros_imagens": [
@@ -95,21 +162,21 @@
                 "M-FT-02_foto_3.png"
             ]
         },
-        "end_time": "16/01/2026 11:02:51"
+        "end_time": "13/12/2025 17:48:39"
     },
     "M-CL-03": {
         "mission_id": "M-CL-03",
-        "rover_id": "R-12",
+        "rover_id": "R-3",
         "type": "ColetaAmostras",
         "status": "Completed",
-        "start_time": "16/01/2026-11:02:52",
+        "start_time": "13/12/2025-17:48:13",
         "target_coords": [
             15,
             15
         ],
         "updates": [
             {
-                "timestamp": "16/01/2026 11:03:01",
+                "timestamp": "13/12/2025 17:48:18",
                 "kind": "UpdateAmostras",
                 "nr_amostras": 3,
                 "pos": [
@@ -118,18 +185,36 @@
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:16",
+                "timestamp": "13/12/2025 17:48:23",
                 "kind": "UpdateAmostras",
-                "nr_amostras": 5,
+                "nr_amostras": 7,
                 "pos": [
                     15,
                     15
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:22",
+                "timestamp": "13/12/2025 17:48:28",
                 "kind": "UpdateAmostras",
-                "nr_amostras": 8,
+                "nr_amostras": 13,
+                "pos": [
+                    15,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:33",
+                "kind": "UpdateAmostras",
+                "nr_amostras": 15,
+                "pos": [
+                    15,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:48:33",
+                "kind": "UpdateAmostras",
+                "nr_amostras": 15,
                 "pos": [
                     15,
                     15
@@ -137,295 +222,437 @@
             }
         ],
         "final_result": {
-            "timestamp": "16/01/2026 11:03:22",
+            "timestamp": "13/12/2025 17:48:38",
             "kind": "FinalAmostras",
-            "total_amostras": 8
+            "total_amostras": 15
         },
-        "end_time": "16/01/2026 11:03:22"
+        "end_time": "13/12/2025 17:48:38"
     },
     "M-RND-001": {
         "mission_id": "M-RND-001",
-        "rover_id": "R-11",
-        "type": "ColetaAmostras",
-        "status": "Completed",
-        "start_time": "16/01/2026-11:03:01",
+        "rover_id": "R-12",
+        "type": "CapturaImagens",
+        "status": "Active",
+        "start_time": "13/12/2025-17:48:20",
         "target_coords": [
-            30,
-            36
+            36,
+            24
         ],
         "updates": [
             {
-                "timestamp": "16/01/2026 11:03:06",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 1,
+                "timestamp": "13/12/2025 17:48:30",
+                "kind": "UpdateImagens",
+                "nr_imagens": 1,
                 "pos": [
-                    30,
-                    36
+                    36,
+                    24
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:06",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 1,
+                "timestamp": "13/12/2025 17:48:37",
+                "kind": "UpdateImagens",
+                "nr_imagens": 2,
                 "pos": [
-                    30,
-                    36
+                    36,
+                    24
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:12",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 6,
+                "timestamp": "13/12/2025 17:48:42",
+                "kind": "UpdateImagens",
+                "nr_imagens": 3,
                 "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:12",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 6,
-                "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:17",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 11,
-                "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:17",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 11,
-                "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:22",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 17,
-                "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:22",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 17,
-                "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:27",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 22,
-                "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:27",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 22,
-                "pos": [
-                    30,
-                    36
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:03:32",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 26,
-                "pos": [
-                    30,
-                    36
+                    36,
+                    24
                 ]
             }
         ],
-        "final_result": {
-            "timestamp": "16/01/2026 11:03:32",
-            "kind": "FinalAmostras",
-            "total_amostras": 26
-        },
-        "end_time": "16/01/2026 11:03:32"
+        "final_result": null
     },
     "M-RND-002": {
         "mission_id": "M-RND-002",
-        "rover_id": "R-12",
+        "rover_id": "R-11",
         "type": "ColetaAmostras",
-        "status": "Completed",
-        "start_time": "16/01/2026-11:03:27",
+        "status": "Active",
+        "start_time": "13/12/2025-17:48:39",
         "target_coords": [
-            26,
+            14,
             11
         ],
         "updates": [
             {
-                "timestamp": "16/01/2026 11:03:32",
+                "timestamp": "13/12/2025 17:48:44",
                 "kind": "UpdateAmostras",
                 "nr_amostras": 0,
                 "pos": [
-                    26,
+                    14,
                     11
                 ]
-            },
+            }
+        ],
+        "final_result": null
+    },
+    "M-RND-004": {
+        "mission_id": "M-RND-004",
+        "rover_id": "R-3",
+        "type": "ColetaAmostras",
+        "status": "Completed",
+        "start_time": "13/12/2025-17:51:29",
+        "target_coords": [
+            17,
+            36
+        ],
+        "updates": [
             {
-                "timestamp": "16/01/2026 11:03:37",
+                "timestamp": "13/12/2025 17:51:34",
                 "kind": "UpdateAmostras",
-                "nr_amostras": 4,
+                "nr_amostras": 1,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:42",
+                "timestamp": "13/12/2025 17:51:39",
                 "kind": "UpdateAmostras",
-                "nr_amostras": 7,
+                "nr_amostras": 6,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:47",
+                "timestamp": "13/12/2025 17:51:44",
                 "kind": "UpdateAmostras",
                 "nr_amostras": 10,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:52",
+                "timestamp": "13/12/2025 17:51:49",
                 "kind": "UpdateAmostras",
-                "nr_amostras": 13,
+                "nr_amostras": 17,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:57",
-                "kind": "UpdateAmostras",
-                "nr_amostras": 18,
-                "pos": [
-                    26,
-                    11
-                ]
-            },
-            {
-                "timestamp": "16/01/2026 11:04:02",
+                "timestamp": "13/12/2025 17:51:54",
                 "kind": "UpdateAmostras",
                 "nr_amostras": 20,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:04:07",
+                "timestamp": "13/12/2025 17:51:59",
                 "kind": "UpdateAmostras",
                 "nr_amostras": 24,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:04:12",
+                "timestamp": "13/12/2025 17:52:04",
                 "kind": "UpdateAmostras",
-                "nr_amostras": 27,
+                "nr_amostras": 29,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:04:17",
+                "timestamp": "13/12/2025 17:52:09",
                 "kind": "UpdateAmostras",
-                "nr_amostras": 32,
+                "nr_amostras": 34,
                 "pos": [
-                    26,
-                    11
+                    17,
+                    36
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:09",
+                "kind": "UpdateAmostras",
+                "nr_amostras": 34,
+                "pos": [
+                    17,
+                    36
                 ]
             }
         ],
         "final_result": {
-            "timestamp": "16/01/2026 11:04:18",
+            "timestamp": "13/12/2025 17:52:18",
             "kind": "FinalAmostras",
-            "total_amostras": 32
+            "total_amostras": 36
         },
-        "end_time": "16/01/2026 11:04:18"
+        "end_time": "13/12/2025 17:52:18"
     },
-    "M-RND-003": {
-        "mission_id": "M-RND-003",
-        "rover_id": "R-11",
-        "type": "AnaliseAmbiental",
-        "status": "Active",
-        "start_time": "16/01/2026-11:03:53",
+    "M-RND-005": {
+        "mission_id": "M-RND-005",
+        "rover_id": "R-12",
+        "type": "CapturaImagens",
+        "status": "Completed",
+        "start_time": "13/12/2025-17:51:30",
         "target_coords": [
-            35,
-            4
+            24,
+            15
         ],
         "updates": [
             {
-                "timestamp": "16/01/2026 11:03:58",
-                "kind": "UpdateAmbiental",
-                "temperatura": 24,
-                "pressao": 1015,
-                "umidade": 46,
+                "timestamp": "13/12/2025 17:51:38",
+                "kind": "UpdateImagens",
+                "nr_imagens": 1,
                 "pos": [
-                    35,
-                    4
+                    24,
+                    15
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:03:58",
-                "kind": "UpdateAmbiental",
-                "temperatura": 24,
-                "pressao": 1015,
-                "umidade": 46,
+                "timestamp": "13/12/2025 17:51:38",
+                "kind": "UpdateImagens",
+                "nr_imagens": 1,
                 "pos": [
-                    35,
-                    4
+                    24,
+                    15
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:04:08",
-                "kind": "UpdateAmbiental",
-                "temperatura": 24,
-                "pressao": 1015,
-                "umidade": 46,
+                "timestamp": "13/12/2025 17:51:44",
+                "kind": "UpdateImagens",
+                "nr_imagens": 2,
                 "pos": [
-                    35,
-                    4
+                    24,
+                    15
                 ]
             },
             {
-                "timestamp": "16/01/2026 11:04:13",
-                "kind": "UpdateAmbiental",
-                "temperatura": 24,
-                "pressao": 1015,
-                "umidade": 46,
+                "timestamp": "13/12/2025 17:51:44",
+                "kind": "UpdateImagens",
+                "nr_imagens": 2,
                 "pos": [
-                    35,
-                    4
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:51:50",
+                "kind": "UpdateImagens",
+                "nr_imagens": 3,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:51:50",
+                "kind": "UpdateImagens",
+                "nr_imagens": 3,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:51:55",
+                "kind": "UpdateImagens",
+                "nr_imagens": 4,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:51:55",
+                "kind": "UpdateImagens",
+                "nr_imagens": 4,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:03",
+                "kind": "UpdateImagens",
+                "nr_imagens": 5,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:09",
+                "kind": "UpdateImagens",
+                "nr_imagens": 6,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:14",
+                "kind": "UpdateImagens",
+                "nr_imagens": 6,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:19",
+                "kind": "UpdateImagens",
+                "nr_imagens": 6,
+                "pos": [
+                    24,
+                    15
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:24",
+                "kind": "UpdateImagens",
+                "nr_imagens": 6,
+                "pos": [
+                    24,
+                    15
                 ]
             }
         ],
+        "final_result": {
+            "timestamp": "13/12/2025 17:52:27",
+            "kind": "FinalImagens",
+            "total_fotos": 6,
+            "ficheiros_imagens": [
+                "M-RND-005_foto_1.png",
+                "M-RND-005_foto_2.png",
+                "M-RND-005_foto_3.png",
+                "M-RND-005_foto_4.png",
+                "M-RND-005_foto_5.png",
+                "M-RND-005_foto_6.png"
+            ]
+        },
+        "end_time": "13/12/2025 17:52:27"
+    },
+    "M-RND-006": {
+        "mission_id": "M-RND-006",
+        "rover_id": "R-11",
+        "type": "CapturaImagens",
+        "status": "Completed",
+        "start_time": "13/12/2025-17:51:35",
+        "target_coords": [
+            37,
+            35
+        ],
+        "updates": [
+            {
+                "timestamp": "13/12/2025 17:51:44",
+                "kind": "UpdateImagens",
+                "nr_imagens": 1,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:51:50",
+                "kind": "UpdateImagens",
+                "nr_imagens": 2,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:51:57",
+                "kind": "UpdateImagens",
+                "nr_imagens": 3,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:51:57",
+                "kind": "UpdateImagens",
+                "nr_imagens": 3,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:07",
+                "kind": "UpdateImagens",
+                "nr_imagens": 4,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:12",
+                "kind": "UpdateImagens",
+                "nr_imagens": 4,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:17",
+                "kind": "UpdateImagens",
+                "nr_imagens": 4,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:23",
+                "kind": "UpdateImagens",
+                "nr_imagens": 4,
+                "pos": [
+                    37,
+                    35
+                ]
+            },
+            {
+                "timestamp": "13/12/2025 17:52:28",
+                "kind": "UpdateImagens",
+                "nr_imagens": 4,
+                "pos": [
+                    37,
+                    35
+                ]
+            }
+        ],
+        "final_result": {
+            "timestamp": "13/12/2025 17:52:30",
+            "kind": "FinalImagens",
+            "total_fotos": 4,
+            "ficheiros_imagens": [
+                "M-RND-006_foto_1.png",
+                "M-RND-006_foto_2.png",
+                "M-RND-006_foto_3.png",
+                "M-RND-006_foto_4.png"
+            ]
+        },
+        "end_time": "13/12/2025 17:52:30"
+    },
+    "M-RND-007": {
+        "mission_id": "M-RND-007",
+        "rover_id": "R-12",
+        "type": "AnaliseAmbiental",
+        "status": "Active",
+        "start_time": "13/12/2025-17:52:27",
+        "target_coords": [
+            19,
+            21
+        ],
+        "updates": [],
         "final_result": null
     }
 }

@@ -3,8 +3,8 @@ import time
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
-from TP2.Rover.estado_rovers import EstadoRover
-from TP2.Comunicacao.Mensagens.serializer import serialize_telemetria
+from este.Rover.estado_rovers import EstadoRover
+from este.Comunicacao.Mensagens.serializer import serialize_telemetria
 
 
 def run_telemetria_loop(rover: EstadoRover, ip_nave, porta_tcp):

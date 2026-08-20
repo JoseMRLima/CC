@@ -4,11 +4,11 @@ import os
 import time
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-from TP2.Comunicacao.MissionLink.mission_link import MissionLinkProtocol
-from TP2.Comunicacao.Mensagens.mensagem import Mensagem
-from TP2.Comunicacao.Mensagens.missons import *
+from este.Comunicacao.MissionLink.mission_link import MissionLinkProtocol
+from este.Comunicacao.Mensagens.mensagem import Mensagem
+from este.Comunicacao.Mensagens.missons import *
 from estado_rovers import EstadoRover
-from TP2.Comunicacao.Telemetria.telemetry_client import run_telemetria_loop
+from este.Comunicacao.Telemetria.telemetry_client import run_telemetria_loop
 import exec_missions
 
 porta = 8888

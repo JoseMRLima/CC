@@ -4,8 +4,8 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
-from TP2.Comunicacao.Mensagens.mensagem import Mensagem
-from TP2.Comunicacao.Mensagens.serializer import serialize_message, deserialize_message
+from este.Comunicacao.Mensagens.mensagem import Mensagem
+from este.Comunicacao.Mensagens.serializer import serialize_message, deserialize_message
 
 timeout = 5
 buffer = 100000

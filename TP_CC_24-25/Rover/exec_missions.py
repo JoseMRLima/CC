@@ -1,11 +1,11 @@
 import time
 import random
 import math
-from TP2.Comunicacao.Mensagens.missons import *
-from TP2.Comunicacao.Mensagens.update import *
-from TP2.Comunicacao.Mensagens.final import *
-from TP2.Comunicacao.Mensagens.serializer import *
-from TP2.Comunicacao.Mensagens.mensagem import Mensagem
+from este.Comunicacao.Mensagens.missons import *
+from este.Comunicacao.Mensagens.update import *
+from este.Comunicacao.Mensagens.final import *
+from este.Comunicacao.Mensagens.serializer import *
+from este.Comunicacao.Mensagens.mensagem import Mensagem
 
 
 def exec_coleta(missao, rover, ml):

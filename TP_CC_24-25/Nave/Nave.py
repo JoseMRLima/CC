@@ -6,14 +6,14 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-from TP2.Comunicacao.MissionLink.mission_link import MissionLinkProtocol
-from TP2.Comunicacao.Mensagens.missons import ColetaAmostras, CapturaImagens, AnaliseAmbiental
-from TP2.Comunicacao.Mensagens.mensagem import Mensagem
-from TP2.Comunicacao.Telemetria.telemetry_server import start_telemetry_server
-from TP2.Comunicacao.MissionLink.mission_store import register_mission_message, register_update_message, \
+from este.Comunicacao.MissionLink.mission_link import MissionLinkProtocol
+from este.Comunicacao.Mensagens.missons import ColetaAmostras, CapturaImagens, AnaliseAmbiental
+from este.Comunicacao.Mensagens.mensagem import Mensagem
+from este.Comunicacao.Telemetria.telemetry_server import start_telemetry_server
+from este.Comunicacao.MissionLink.mission_store import register_mission_message, register_update_message, \
     register_final_message, mission_state
-from TP2.Comunicacao.Mensagens.serializer import serialize_snapshot
-from TP2.Nave.api_server import configure_api, run_api
+from este.Comunicacao.Mensagens.serializer import serialize_snapshot
+from este.Nave.api_server import configure_api, run_api
 
 IP_NAVE = "0.0.0.0"
 PORTA_UDP = 8888
@@ -75,7 +75,7 @@ def gerar_missao_aleatoria(rover_id):
     coords = (x, y)
 
     tempo = random.randint(30, 60)
-    update = 5 
+    update = 5  # segundos
 
     escolha = random.choice(["coleta", "fotos", "ambiental"])
 

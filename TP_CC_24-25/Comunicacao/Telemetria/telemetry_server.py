@@ -3,7 +3,7 @@ import threading
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
-from TP2.Comunicacao.Mensagens.serializer import deserialize_telemetria
+from este.Comunicacao.Mensagens.serializer import deserialize_telemetria
 
 
 
